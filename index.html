@@ -29,22 +29,21 @@ body{
   box-shadow:0 25px 70px rgba(0,0,0,.45);
 }
 
+/* TEXT LOGO */
 .logo{
   width:70px;
   height:70px;
-  margin:0 auto 18px;
+  margin:0 auto 20px;
   border-radius:50%;
   background:#020617;
+  border:1px solid #22c55e;
   display:flex;
   align-items:center;
   justify-content:center;
-  overflow:hidden;
-}
-
-.logo img{
-  width:100%;
-  height:100%;
-  object-fit:contain;
+  font-weight:700;
+  font-size:22px;
+  color:#22c55e;
+  letter-spacing:.5px;
 }
 
 .badge{
@@ -63,7 +62,7 @@ body{
 }
 
 .container p{
-  margin:0 0 34px;
+  margin:0 0 30px;
   font-size:15px;
   color:#94a3b8;
   line-height:1.7;
@@ -78,6 +77,12 @@ body{
   font-weight:600;
   border-radius:16px;
 }
+
+.small{
+  margin-top:18px;
+  font-size:12px;
+  color:#64748b;
+}
 </style>
 </head>
 
@@ -85,37 +90,34 @@ body{
 
 <div class="container">
 
-  <!-- LOGO -->
-  <div class="logo">
-    <!-- local file: logo.png OR direct URL -->
-    <img src="logo.png" alt="Market Learning Logo">
-  </div>
+  <!-- TEXT LOGO -->
+  <div class="logo">ML</div>
 
   <div class="badge">Educational Platform</div>
 
   <h1>Market Learning</h1>
 
   <p>
-    Learn the fundamentals of financial markets with
-    a clear, simple and transparent learning approach.
+    Learn the fundamentals of financial markets with a
+    clear, simple and transparent learning approach.
   </p>
 
   <a href="https://t.me/Shoppingbaazigar">
     Join Telegram Channel
   </a>
 
-  <p style="margin-top:18px;font-size:13px;color:#64748b;">
-    Redirecting you automatically…
+  <p class="small">
+    Educational content only. Not investment advice.
   </p>
+
 </div>
 
 <script>
-  // ✅ Reliable auto redirect (works on mobile + desktop)
+  // ⏱️ Safe auto redirect (Ads-friendly)
   setTimeout(() => {
     window.location.replace("https://t.me/Shoppingbaazigar");
-  }, 1000);
+  }, 3000);
 </script>
 
 </body>
 </html>
-
